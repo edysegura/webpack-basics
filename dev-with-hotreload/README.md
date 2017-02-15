@@ -16,4 +16,4 @@ and then
 npm start
 ```
 
-Just change anything in ./src/js and enjoy the hot reload!
+Just change anything in ```./src/js``` and enjoy the hot reload!
