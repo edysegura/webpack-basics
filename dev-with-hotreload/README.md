@@ -2,7 +2,7 @@
 
 This example is using ```webpack-dev-server``` to add hot reload to the JavaScripts modules.
 
-## How to run this example
+## How to run it
 
 Fist install the dependencies
 
