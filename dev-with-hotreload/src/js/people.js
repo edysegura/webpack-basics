@@ -23,7 +23,6 @@ const people = [
         manager: 'Liao',
         name: 'Edy Segura'
     }
-    
 ];
 
 export default people;
