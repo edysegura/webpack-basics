@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A webpack example using command line",
   "scripts": {
-    "build": "webpack ./src/js/main.js ./dist/js/main.bundle.js"
+    "prebuild": "rm ./dist -fr",
+    "build": "webpack ./src/js/main.js ./dist/js/main.bundle.js",
+    "execute": "node ./dist/js/main.bundle.js",
+    "start": "npm run build -s && npm run execute -s"
   },
   "author": "Edy Segura",
   "license": "MIT",
