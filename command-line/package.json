@@ -1,0 +1,16 @@
+{
+  "name": "command-line",
+  "version": "1.0.0",
+  "description": "A webpack example using command line",
+  "scripts": {
+    "build": "webpack ./src/js/main.js ./dist/js/main.bundle.js"
+  },
+  "author": "Edy Segura",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "~2.2.1"
+  },
+  "dependencies": {
+    "loadash": "0.0.1"
+  }
+}
