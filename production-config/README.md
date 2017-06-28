@@ -1,6 +1,6 @@
-# Bundling with hot reload
+# Bundling for production
 
-This example is using ```webpack-dev-server``` to add hot reload to the JavaScripts modules.
+This example is using ```NODE_ENV=production``` to change webpack.config.js file.
 
 ## How to run it
 
@@ -13,7 +13,7 @@ npm install
 and then
 
 ```
-npm start
+npm run build
 ```
 
-Just change anything in ```./src/js``` and enjoy the hot reload!
+Just check the results at ```./dist``` and enjoy!
