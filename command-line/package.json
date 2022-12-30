@@ -11,7 +11,7 @@
   "author": "Edy Segura",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "~2.2.1"
+    "webpack": "~5.75.0"
   },
   "dependencies": {
     "loadash": "0.0.1"
